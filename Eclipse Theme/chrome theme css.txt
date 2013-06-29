@@ -1,0 +1,177 @@
+/*
+ *  Chrome Theme generate css dynamically, So do not inspect this file, See "ChromeCSSGenerator.xtend" instead
+ */
+.jeeeyul-chrome-theme{
+	/*
+	 * This selector rule is exist for detect Chrome Theme to find rewrite target. 
+	 * See "RewriteChormeCSS.java"
+	 */	
+}
+
+.MTrimmedWindow.topLevel {
+	margin-top: 7px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.MPartStack {
+	font-size: 9;
+	font-family: 'Segoe UI';
+	swt-simple: true;
+	swt-tab-renderer:
+		url('bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.ChromeTabRendering');
+
+	padding: 1px 6px 8px 6px; /* top left bottom right */
+	swt-tab-outline: #2b2b2b;
+	swt-outer-keyline-color: #2b2b2b;
+	swt-unselected-tabs-color: #262626 #262626 #363636 99% 100%;
+	swt-shadow-visible: true;
+	
+	swt-selected-tab-fill: #363636;
+	chrome-selected-tab-fill-highlight: #363636;
+	
+	chrome-selected-tab-color: #bcf558;
+	chrome-unselected-tab-color: #bcf558;
+	
+	swt-shadow-color: #818284;
+	
+	chrome-shiney-shadow: false;
+	swt-mru-visible: true;
+	
+	swt-corner-radius: 14px;
+}
+
+.MPartStack.active {
+	swt-inner-keyline-color: #FFFFFF;
+	swt-tab-outline: #000000;
+	swt-outer-keyline-color: #000000;
+	swt-unselected-tabs-color: #262626 #262626 #363636 99% 100%;
+	
+	swt-selected-tab-fill: #363636;
+	chrome-selected-tab-fill-highlight: #363636;
+	
+	chrome-selected-tab-color: #bcf558;
+	chrome-unselected-tab-color: #bcf558;
+	chrome-shiney-shadow: false;
+}
+
+.MPartStack.empty {
+	swt-unselected-tabs-color: #262626 #262626 #262626 99% 100%;
+	swt-tab-outline: #bcf558;
+	swt-outer-keyline-color: #bcf558;
+}
+
+.MTrimmedWindow {
+  	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #262626;
+}
+
+.MTrimBar {
+	background-color: #262626;
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar {
+	background-color: #606060 #262626;
+}
+
+CTabFolder.MArea .MPartStack,CTabFolder.MArea .MPartStack.active {
+	swt-shadow-visible: false;
+}
+
+CTabFolder Canvas {
+	background-color: #F8F8F8;
+}
+
+#org-eclipse-ui-editorss {
+	swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+	swt-unselected-tabs-color: #F0F0F0 #F0F0F0 #F0F0F0 100% 100%;
+	swt-outer-keyline-color: #B4B4B4;
+	swt-inner-keyline-color: #F0F0F0;
+	swt-tab-outline: #F0F0F0;
+	color: #F0F0F0;
+	swt-tab-height: 8px;
+	padding: 0px 5px 7px;
+}
+
+#org-eclipse-ui-trim-status{
+	chrome-border-top-visible: false;
+	chrome-padding-top: 0;
+}
+
+.MToolControl.TrimStack {
+	frame-image: url(chrome://frame?background-color=#262626);
+	frame-cuts: 5px 1px 5px 16px;
+	
+	handle-image: url(chrome://drag-handle?height=22&background-color=#262626&embossed=false);
+}
+
+.MTrimBar .Draggable {
+	handle-image: url(chrome://drag-handle?height=22&background-color=#262626&embossed=false);
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar .Draggable {
+	handle-image: url(chrome://drag-handle?height=22&background-color=#606060&embossed=false);
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar .TrimStack {
+	frame-image: url(chrome://frame?background-color=#606060);
+	handle-image: url(chrome://drag-handle?height=22&background-color=#606060&embossed=false);
+}
+
+
+#org-eclipse-ui-main-toolbar #PerspectiveSwitcher {
+	eclipse-perspective-keyline-color: #2ad2f7;
+	background-color: #777777 #262626 100%;
+	handle-image: none;
+	chrome-show-perspective-name: false;
+}
+
+
+.MPart.Editor StyledText{
+	chrome-line-style: none;
+	chrome-line-color: #f0f0f0;
+}
+
+/* User CSS */
+#org-eclipse-ui-console-ConsoleView Label{
+	color: #FF8300;
+}
+
+#org-eclipse-ui-console-ConsoleView StyledText{
+	background-color: #262626;
+	color: white;
+}
+
+#org-eclipse-ui-StatusLine CLabel{
+	color: #FF8300;
+}
+
+#org-eclipse-e4-ui-compatibility-editor Canvas{
+	background-color: #262626;
+}
+
+#org-eclipse-e4-ui-compatibility-editor  ToolBar{
+	background-color: #dddddd;
+}
+#org-eclipse-e4-ui-compatibility-editor CImageLabel{
+	background-color: #dddddd;
+	color: black;
+}
+
+#org-eclipse-ui-ProgressBar Canvas{
+	color: #FF8300;
+}
+
+CTabItem{
+	color: #FF8300
+}
+
+#org-eclipse-jdt-junit-ResultView Label,CLabel{
+	color: #FF8300;
+}
+
+

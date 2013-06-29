@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="17507" name="Sublime Text 2 - Remix" modified="2013-06-16 09:55:08" author="Erika Nana">
+    <searchResultIndication color="#D8D8D8" />
+    <filteredSearchResultIndication color="#D8D8D8" />
+    <occurrenceIndication color="#000000" />
+    <writeOccurrenceIndication color="#000000" />
+    <findScope color="#000000" />
+    <deletionIndication color="#FF0000" />
+    <sourceHoverBackground color="#FFFFFF" />
+    <singleLineComment color="#909090" />
+    <multiLineComment color="#909090" />
+    <commentTaskTag color="#FFFFFF" />
+    <javadoc color="#FFFFFF" />
+    <javadocLink color="#A7EC21" />
+    <javadocTag color="#A7EC21" bold="true" />
+    <javadocKeyword color="#52E3F6" />
+    <class color="#52E3F6" />
+    <interface color="#52E3F6" />
+    <method color="#FFFFFF" />
+    <methodDeclaration color="#FFFFFF" />
+    <bracket color="#F9FAF4" />
+    <number color="#FF8300" />
+    <string color="#A7EC21" />
+    <operator color="#FF007F" />
+    <keyword color="#FF007F" />
+    <annotation color="#FFFFFF" />
+    <staticMethod color="#FFFFFF" />
+    <localVariable color="#FFFFFF" />
+    <localVariableDeclaration color="#FFFFFF" />
+    <field color="#FFFFFF" />
+    <staticField color="#FFFFFF" />
+    <staticFinalField color="#FFFFFF" />
+    <deprecatedMember color="#FF0000" />
+    <inheritedMethod color="#BED6FF" italic="false" />
+    <abstractMethod color="#BED6FF" />
+    <parameterVariable color="#FFFA00" />
+    <typeArgument color="#909090" />
+    <typeParameter color="#909090" />
+    <constant color="#FFFFFF" />
+    <background color="#262626" />
+    <currentLine color="#2B2B2B" />
+    <foreground color="#FFFFFF" />
+    <lineNumber color="#909090" />
+    <selectionBackground color="#CCFFFF" />
+    <selectionForeground color="#404040" />
+</colorTheme>
