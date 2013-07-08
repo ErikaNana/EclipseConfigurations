@@ -9,8 +9,8 @@
     <sourceHoverBackground color="#FFFFFF" />
     <singleLineComment color="#909090" />
     <multiLineComment color="#909090" />
-    <commentTaskTag color="#FFFFFF" />
-    <javadoc color="#FFFFFF" />
+    <commentTaskTag color="#909090" />
+    <javadoc color="#909090" />
     <javadocLink color="#A7EC21" />
     <javadocTag color="#A7EC21" bold="true" />
     <javadocKeyword color="#52E3F6" />
